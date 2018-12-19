@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700');
+
+html, body, #container {
+height: 100%;
+}
+
+body {
+margin: 0;
+padding: 0;
+background-image: url("bg.jpg");
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1, h2, h3 {
+margin: 0;
+padding: 0;
+color: white;
+font-family: 'Comfortaa';
+}
+
+h3 {
+font-weight: 300;
+font-size: 14pt;
+}
+
+h2 {
+font-weight: 400;
+font-size: 18pt;
+}
+
+h1 {
+font-weight: 700;
+font-size: 22pt;
+}
+
+#container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 95%;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+img {
+width: 150px;
+border-radius: 90px;
+border: 5px solid white;
+margin-bottom: 15px;
+margin-top: 30px;
+box-shadow: 0px 0px 15px black;
+}
+
+#placeholder {
+text-align: center;
+font-family: 'Comfortaa';
+font-size: 20pt;
+color: white;
+font-weight: 300;
+}
+
+#surname {
+font-weight: 700;
+}
+
+button {
+font-family: 'Comfortaa';
+text-align: center;
+text-decoration: none;
+color: white;
+background-color: blue;
+width: 100px;
+height: 30px;
+border-style: none;
+border-radius: 15px;
+margin-top: 15px;
+font-weight: 400;
+transition: 0.5s;
+}
+
+button:hover {
+color: blue;
+background-color: #cdcdff;
+font-weight: 700;
+transition: 0.5s;
+}
+
+footer {
+display: block;
+height: 5%;
+text-align: center;
+color: rgba(255, 255, 255, 0.5);
+background-color: rgba(0, 0, 0, 0.5);
+font-size: 8pt;
+font-family: 'Comfortaa';
+font-weight: 300;
+}
+
+a {
+text-decoration: none;
+color: rgba(194, 194, 255, 0.5);
+transition: 0.3s;
+}
+
+a:hover {
+color: white;
+text-decoration: underline;
+transition: 0.3s;
+}
